@@ -29,7 +29,7 @@ pwd
 
 ==========
 4. What's the absolute path to your home directory?
-cd
+/Users/username
 
 
 
@@ -41,18 +41,17 @@ cd
 
 ==========
 6. What's the absolute path to your Desktop directory?
-----------
-
+/Users/username/Desktop
 
 
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
-----------
+cd Users/username/Desktop
 
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
-----------
+mkdir stuff
 
 
 
