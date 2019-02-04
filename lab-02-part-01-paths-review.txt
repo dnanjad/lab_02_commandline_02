@@ -12,7 +12,6 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 ==========
 1. Write the command that you would use to change to the root directory.
-----------
 
 
 
@@ -30,13 +29,13 @@ Feel free to use your workstation to test your answers to the questions that don
 
 ==========
 4. What's the absolute path to your home directory?
-----------
+/Users/username
 
 
 
 ==========
 5. What's the absolute path to your Desktop directory?
-----------
+/Users/username/Desktop
 
 
 
