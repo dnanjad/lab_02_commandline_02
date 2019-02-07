@@ -133,25 +133,19 @@ REMEMBER to use the -o flag, and follow it with a .zip extension!
 Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
-----------
-
-
+ student$ curl -o mtech1002-lab02.zip http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
 
 ==========
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
-----------
-
-
+unzip mtec1002-lab-02.zip
 
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
 
 Copy and paste the output below.
-----------
-
-
+books	logs	web
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -160,9 +154,24 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 16. Go back up to your home directory.  Create a directory called stuff.  List the contents of your home directory to prove that the directory was created.
 
 Copy and paste the output below.
-----------
-
-
+__MACOSX		mtec1002-lab-02		mtec1002-lab-02.zip
+ent-v314-007:Downloads student$ cd mtec1002-lab-02
+ent-v314-007:mtec1002-lab-02 student$ ls
+books	logs	web
+ent-v314-007:mtec1002-lab-02 student$ cd
+ent-v314-007:~ student$ mkdir stuff
+ent-v314-007:~ student$ cd
+ent-v314-007:~ student$ ls
+AMALogger20190109.log	Library			Things
+AMALogger20190204.log	MPLABXProjects		google.html
+AMALogger20190206.log	Mosalah11-Mtec1003	ipe.properties
+Adlm			Movies			isus
+Adobe			Music			mtech1002-lab02.zip
+Applications		New Unity Project	pizza
+Desktop			Pictures		pymel.log
+Documents		Public			stuff
+Downloads		QLData			xgen
+ent-v314-007:~ student$ 
 
 ==========
 17. Change into the "stuff" directory that you just created.  Run the following command (we haven't learned this exact command yet, but we will in the next lab!) exactly as described below:
@@ -172,9 +181,7 @@ $ echo "hi" > hello.txt
 List the files in the directory you're currently in (which should be stuff).  
 
 Copy and paste the output below.
-----------
-
-
+hello.txt
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -184,27 +191,39 @@ $ tar -cvf stuff.tar stuff
 List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below.
-----------
-
-
-
+AMALogger20190109.log	MPLABXProjects		ipe.properties
+AMALogger20190204.log	Mosalah11-Mtec1003	isus
+AMALogger20190206.log	Movies			mtech1002-lab02.zip
+Adlm			Music			pizza
+Adobe			New Unity Project	pymel.log
+Applications		Pictures		stuff
+Desktop			Public			stuff.tar
+Documents		QLData			xgen
+Downloads		Things
+Library			google.html
 ==========
 19. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
 
 $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
-----------
-
-
+hello.txt
 
 ==========
 20. List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below. (It should contain stuff.tar)
-----------
-
-
+Copy and paste the output below.
+AMALogger20190109.log	MPLABXProjects		ipe.properties
+AMALogger20190204.log	Mosalah11-Mtec1003	isus
+AMALogger20190206.log	Movies			mtech1002-lab02.zip
+Adlm			Music			pizza
+Adobe			New Unity Project	pymel.log
+Applications		Pictures		stuff
+Desktop			Public			stuff.tar
+Documents		QLData			xgen
+Downloads		Things
+Library			google.html
 
 ==========
 21. Now compress it!  Type:
@@ -212,9 +231,16 @@ Copy and paste the output below. (It should contain stuff.tar)
 gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
-----------
-
-
+AMALogger20190109.log	MPLABXProjects		ipe.properties
+AMALogger20190204.log	Mosalah11-Mtec1003	isus
+AMALogger20190206.log	Movies			mtech1002-lab02.zip
+Adlm			Music			pizza
+Adobe			New Unity Project	pymel.log
+Applications		Pictures		stuff
+Desktop			Public			stuff.tar.gz
+Documents		QLData			xgen
+Downloads		Things
+Library			google.html
 
 ==========
 22. Move stuff.tar.gz into the lab directory that we downloaded.  We didn't learn this command yet, so just type in exactly as is:
@@ -226,7 +252,7 @@ MAKE SURE YOU MOVE THE FILE THAT ENDS IN .gz!
 Change your directory to mtec1002-lab-02.  
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
-----------
+it did not appear
 
 
 ==========
