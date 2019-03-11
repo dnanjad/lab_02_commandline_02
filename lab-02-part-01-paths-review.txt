@@ -19,7 +19,7 @@ cd /
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
-cd
+cd ~
 
 
 
@@ -33,20 +33,20 @@ cd ~/Desktop
 ==========
 4. What's the absolute path to your home directory?
 ----------
-/Users/student
+/Users/student or ~
 
 
 
 ==========
 5. What's the absolute path to your Desktop directory?
-/Users/student/Desktop
+/Users/student/Desktop or ~/Desktop
 
 
 
 ==========
 6. What's the absolute path to your Desktop directory?
 ----------
-/Users/student/Desktop
+/Users/student/Desktop or ~/Desktop
 
 
 ==========
@@ -100,7 +100,7 @@ cd -
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
-ls -al
+ls -al Desktop
 ==========
 Optional Challenge:
 
